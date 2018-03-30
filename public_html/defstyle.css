@@ -1,0 +1,274 @@
+*{
+margin:0px;
+padding:0px;	
+font-family:calibri;
+}
+.inner-left{
+	flex:6;
+	display:flex;
+	flex-direction:column;
+}
+.inner-right{
+	flex:4;
+	
+}
+.create-quiz{
+	display:flex;
+}
+.lower-div h1{
+	margin-top:10px;
+}
+.main-container{
+	margin:50px 0px;
+	min-height:400px;
+	display:flex;
+}
+.inner-left-top,.inner-left-bottom
+{
+	flex:1;
+		box-shadow: 0 2px 2px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+		padding:10px;
+		margin:10px;
+
+}
+.inner-right-top,.inner-right-bottom{
+		box-shadow: 0 2px 2px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+		padding:10px;
+		margin:10px;
+
+		}
+
+.sub-div{
+	box-shadow: 0 2px 2px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+	flex:1;
+	height:400px;
+	margin:0px 10px;
+	display:flex;
+	flex-direction:column;
+}
+.upper-div{
+	flex:1;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.23);
+}
+.lower-div{
+		flex:1;
+		padding:10px;
+		text-align:center;
+}
+input[type='submit']{
+	height:40px;
+	padding:5px;
+	background-color:#0D0127;
+	color:white;
+	border:0px solid red;
+	font-size:20px;
+	margin-top:15px;
+	border-radius:3px;
+	min-width:100px;
+	text-align:center;
+}
+body {
+    background-color: white;
+	padding-bottom:60px;
+    /*font-size: 1.1em;*/
+}
+
+article {
+    padding: 10px;
+    background-color: #DBC497;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+table {
+    /*border: 1px solid black;*/
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {}
+
+h1 {
+    font: 1.3em;
+}
+
+.codes {
+    background-color: white;
+    color: red;
+    font-size: 1.2em;
+    border-style: dashed;
+    border-color: brown;
+}
+
+.sixty {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+#question_maker {
+    background-color: #b7db97;
+    font-size: 1.1em;
+}
+
+#allcontainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.only-text{
+	text-align:center;
+	font-size:30px;
+}
+#tablecontainer {
+    display: table;
+    border-spacing: 5px;
+    width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#tablerow {
+    display: table-row;
+}
+
+.sectionbox {
+    padding: 10px;
+    background-color: #A68572;
+    border: 2px solid black;
+	
+}
+
+aside {
+    display: table-cell;
+    width: 40%;
+}
+
+#main {
+    display: table-cell;
+}
+
+.headfoot {
+    /*background-color: #fc6270;*/
+    background-color: #0D0127;
+    padding: 10px;
+    color: white;
+    border: 0px solid black;
+}
+
+header {}
+
+footer {
+    text-align: center;
+    font-size: 0.95em;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: green;
+    text-decoration: none;
+}
+
+
+/*Question box*/
+
+.leftfloater {
+    float: left;
+}
+
+.qcontainer {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: 0px solid black;
+	margin:10px 0px 0px 0px;
+}
+
+.inqcontainer {
+    margin-left: 30px;
+}
+
+.qbox, .optionbox {
+    padding-left: 5px;
+    margin: 1px;
+	font-size:18px;
+}
+.optionbox{
+	border:0.1px solid #D3D3D3;
+}
+.qbox {
+	color:white;
+    background-color: #0D0127;
+    font-size: 1.3em;
+}
+
+
+
+/*checkboxes */
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 2px solid #f2f2f2;
+}
+
+input[type='checkbox']:checked {
+    background: blue;
+}
+
+//result wala table kaa
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #aaa;
+    text-align: center;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #aaa;
+    color: #333;
+    background-color: #fff;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #aaa;
+    color: #fff;
+    background-color: #f38630;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+
+.tg .tg-z2zr {
+  text-align: center;
+    background-color: #eddaba
+}
+
+.blue{
+	color:#0D0127;
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf8" />
+	<title>Home Quiz - No registration, no signup. Create and take free quizzes.</title>
+	<link rel="stylesheet" href="defstyle.css" />
+</head>
+
+<body>
+
+	<div id="allcontainer">
+		<header class="headfoot">
+			<h1 style="font-size:40px;">Quiz HOME</h1>
+			<p style="font-size:18px;">No registration, no signup. Create and take free quizzes.</p>
+		</header>
+		<div class="main-container">
+			<div class="sub-div">
+				<div class="upper-div" style="background-image:url('../images/create_quiz.jpg')">
+				</div>
+				<div class="lower-div">
+				<h1><center>Create Own Quiz</center></h1>
+				<hr style="margin-bottom:10px;">
+				<form method="POST" action="create_quiz.php">
+					<label for="Title" style="font-size:20px">Quiz title : </label>
+					<input style="font-size:18px;" type="text" id="title" name="title" required="please enter" /><br>
+
+					<input type="submit" value="Create" name="submit" /><br>
+				</form>
+				</div>
+			</div>
+			<div class="sub-div">
+				<div class="upper-div" style="background-image:url('../images/take_quiz.jpg')">
+				</div>
+				<div class="lower-div">
+				<h1><center>Take Test</center></h1>
+				<hr style="margin-bottom:10px;">
+				<form method="POST" action="take_test.php">
+				<label for="Title" style="font-size:20px">Quiz code : </label>
+				<input style="font-size:18px" type="text" id="quiz_code" name="quiz_code" /><br>
+
+				<input type="submit" value="Test" name="submit" /><br>
+				</form>
+				
+				</div>
+			</div>
+			<div class="sub-div">
+			
+				<div class="upper-div" style="background-image:url('../images/results.jpg')">
+				</div>
+				<div class="lower-div">
+			<h1><center>Results</center></h1>
+				<hr style="margin-bottom:10px;">
+						<form method="POST" action="check_results.php">
+						<label style="font-size:20px" for="Title">Result code : </label>
+						<input style="font-size:18px" type="text" id="result_code" name="result_code" /><br>
+
+						<input type="submit" value="Check" name="check_results" /><br>
+					</form>
+					</div>
+			</div>
+			<div class="sub-div">
+			
+				<div class="upper-div" style="background-image:url('../images/about_us.jpg')">
+				</div>
+				<div class="lower-div">
+			<h1><center>About Us</center></h1>
+			<hr style="margin-bottom:10px;">
+				<p style="font-size:18px;">Our Aim is to enable people to conduct quiz online in a hassle free manner.</p>		
+			</div>
+			</div>
+		</div>
+		<!--
+		<div id="tablecontainer">
+			<div id="tablerow">
+
+				<section id="main" class="sectionbox">
+
+					<article>
+						<h1>Create Own Quiz</h1>
+						<form method="POST" action="create_quiz.php">
+							<label for="Title">Quiz title : </label>
+							<input type="text" id="title" placeholder="eg physics ct2 d7a"name="title" required="please enter" /><br>
+
+							<input type="submit" value="Create" name="submit" /><br>
+						</form>
+					</article>
+
+					<article>
+						<h1>Results</h1>
+
+						<form method="POST" action="check_results.php">
+						<label for="Title">Result code : </label>
+						<input type="text" id="result_code" name="result_code" /><br>
+
+						<input type="submit" value="see" name="check_results" /><br>
+					</form>
+					</article>
+
+				</section>
+
+				<aside class="sectionbox">
+
+
+					<article>
+						<h1>Take Test</h1>
+						<form method="POST" action="take_test.php">
+						<label for="Title">Quiz code : </label>
+						<input type="text" id="quiz_code" name="quiz_code" /><br>
+
+						<input type="submit" value="test" name="submit" /><br>
+					</form>
+					</article>
+
+					<article>
+						<h1>About Us</h1>
+						Priti<br>
+						Sayli<br>
+						Kunal<br>
+						Vinit
+					</article>
+
+				</aside>
+
+			</div>
+		</div>
+		-->
+		<footer class="headfoot">
+			<p>Copyright © 2017 VESIT GROUP PROJECT B-S-R </p>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
